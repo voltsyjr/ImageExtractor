@@ -23,4 +23,4 @@ Steps to use version 1.1
 
 
 
-                                                                      <b>!!Hope you liked it!!</b>
+                                                                      !!Hope you liked it!!

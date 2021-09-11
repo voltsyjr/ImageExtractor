@@ -1,0 +1,37 @@
+<Main@BoxLayout>:
+    cons:1
+    rows:5
+    id:main
+
+    Label:
+        id:label
+        text:"Extract image from pdf"
+        font_size:30
+        size_hint:(.1,.1)
+        color: (45,3,56,1)
+
+    
+    Image:
+        id:image
+        source:"image.png"
+
+    Label:
+        id:label
+        text:"This is Designed by Vishal Singh To Extract image from any pdf,"
+        font_size:20
+        size_hint:(.1,.1)
+        color: (3,45,1,1)
+    Label:
+        id:label
+        text:"So that you need not to take ss of image from pdf to copy assignment of you friend"
+        font_size:20
+        size_hint:(.1,.1)
+        color: (3,56,1,1)
+    Button:
+        id:data
+        text:"Choose PDF"
+        on_release : root.choose()
+        size_hint:(.1,.1)
+        background_color:(0.0,25.86,1.0)
+        color:(0,0,0,1)
+        font_size:35

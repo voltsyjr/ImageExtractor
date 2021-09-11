@@ -1,0 +1,24 @@
+<PdfExtract>:
+    cons:1
+    rows:3
+    id:pdf_extract
+    #filechooser:filechooser
+    data:filechooser
+
+
+    Label:
+        id:label
+        text:"Choose Pdf file"
+        font_size:24
+        size_hint:(.1,.1)
+    #FileChooserListView:
+    FileChooserIconView:
+        id:filechooser
+        on_selection:pdf_extract.selected(filechooser.selection)
+    Button:
+        id:data
+        text:"Submit"
+        on_release : root.logic(filechooser.selection)
+        size_hint:(.1,.1)
+        
+ 
